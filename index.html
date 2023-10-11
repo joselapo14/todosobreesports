@@ -46,12 +46,17 @@
 						<label for="usuario">Usuario: </label> <input type="text" id="nombre" name="nombre"><br>
 						<label for="socio">Socio </label> <input type="checkbox" id="socio" name="socio" value="Si"><br>
 						<label for="sexo">Sexo: <input type="radio" name="genero" value="m"> Hombre <input type="radio" name="genero" value="f"> Mujer <br>
-						<label for="juegofav">Juego Favorito: </label> 
-						<input type="radio" name="lol" value="lol"> League of Legends
-						<input type="radio" name="rocket" value="rocket"> Rocket League
-						<input type="radio" name="csgo" value="csgo"> CS:GO
-						<input type="radio" name="heartstone" value="heartstone"> Heartstone
-						<input type="radio" name="valo" value="valo"> Valorant <br>
+						<td>
+						<fieldset><legend>Juego Favorito: </legend><br>
+							<select id="juegos" name="juegos" multiple="si" size="5" >
+							<option value="lol" selected="selected">League of Legends</option>
+							<option value="valo" selected="selected">Valorant</option>
+							<option value="rocket" selected="selected">Rocket League</option>
+							<option value="csgo" selected="selected">CS:GO</option>
+							<option value="heart" selected="selected">Heartstone</option>
+							</select>
+						</fieldset>
+						</td><br>
 						<input type="submit" value="enviar">
 						<input type="reset" value="reset">
 					</form>
