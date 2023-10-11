@@ -7,35 +7,34 @@
 		<meta charset="UTF-8">
   </head>
   <body id="cuerpo" style="background-color: #10CBCB">
-
-
-      <div id="form" align="left">
-					<form>
-						<table width="500" >
-						<label for="nombre">Nombre: </label> <input type="text" id="nombre" name="nombre"><br>
-						<label for="apellidos">Apellidos: </label> <input type="text" id="nombre" name="nombre"><br>
-						<label for="usuario">Usuario: </label> <input type="text" id="nombre" name="nombre"><br>
-						<label for="socio">Socio </label> <input type="checkbox" id="socio" name="socio" value="Si"><br>
-						<label for="sexo">Sexo: <input type="radio" name="genero" value="m"> Hombre <input type="radio" name="genero" value="f"> Mujer <br>
-						<td>
-						<fieldset><legend>Juego Favorito: </legend><br>
-							<select id="juegos" name="juegos" multiple="si" size="5" >
-							<optgroup label="Disparos">
-							<option value="csgo" selected="selected">CS:GO</option>
-							<option value="valo" selected="selected">Valorant</option>
-							</optgroup>
-							<optgroup label="Estrategia">
-							<option value="rocket" selected="selected">Rocket League</option>
-							<option value="lol" selected="selected">League of Legends</option>
-							<option value="heart" selected="selected">Heartstone</option>
-							</optgroup>
-							</select>
-						</fieldset>
-						</td><br>
-						<input type="submit" value="enviar">
-						<input type="reset" value="reset">
-						</table>
-					</form>
-				</div>
+	<form>
+		<fieldset>
+		<legend>Formulario Registro</legend>
+			<table width="500" cellpading="4">
+			<label for="nombre">Nombre: </label> <input type="text" id="nombre" name="nombre"><br>
+			<label for="apellidos">Apellidos: </label> <input type="text" id="nombre" name="nombre"><br>
+			<label for="usuario">Usuario: </label> <input type="text" id="nombre" name="nombre"><br>
+			<label for="socio">Socio </label> <input type="checkbox" id="socio" name="socio" value="Si"><br>
+			<label for="sexo">Sexo: <input type="radio" name="genero" value="m"> Hombre <input type="radio" name="genero" value="f"> Mujer <br>
+			<td>
+			<fieldset><legend>Juego Favorito: </legend><br>
+				<select id="juegos" name="juegos" multiple="si" size="5" >
+				<optgroup label="Disparos">
+				<option value="csgo" selected="selected">CS:GO</option>
+				<option value="valo" selected="selected">Valorant</option>
+				</optgroup>
+				<optgroup label="Estrategia">
+				<option value="rocket" selected="selected">Rocket League</option>
+				<option value="lol" selected="selected">League of Legends</option>
+				<option value="heart" selected="selected">Heartstone</option>
+				</optgroup>
+				</select>
+			</fieldset>
+			</td><br>
+			<input type="submit" value="enviar">
+			<input type="reset" value="reset">
+			</table>
+		</fieldset>
+	</form>
   </body>
 </html>
