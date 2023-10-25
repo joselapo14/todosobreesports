@@ -1,7 +1,4 @@
 /*Pagina principal*/
-body{
-    font-family: 'Courier New', Courier, monospace;
-}
 
 
 /*formulario registro*/
@@ -9,7 +6,7 @@ body{
 #formularioreg{
     width:500px;
     padding:16px;
-    border-radius 10px;
+    border-radius: 10px;
     margin:auto;
     background-color: #ccc;
 }
