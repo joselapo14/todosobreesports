@@ -1,37 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <title>Login</title>
-  	<link rel="shortcut icon" type="image/x-icon" href="https://joselapo14.github.io/todosobreesports/images/favicon1.icon" />
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-    <meta name="author" content="Josito" /> 
-		<meta charset="UTF-8">
-	  	<script language="javascript" type="text/javascript"> 
-		function cerrar() { 
- 		  window.open('','_self',''); 
- 		  window.close(); 
-		} 
-		</script>
-
-  </head>
-  <body id="cuerpo" style="background-color: #10CBCB">
-	<h1>INICIAR SESIÓN</h1>
-	<table width="700"><tr><td>
-	<form action="" method="get" enctype="multipart/form-data">
-		<fieldset>
-			<table width="400" cellpading="4">
-			<label for="user">Nombre de Usuario: </label> <input type="text" id="nombre" name="nombre"><br>
-			<label for="password">Contraseña: </label> <input type="password" id="nombre" name="nombre"><br>
-			</fieldset>
-			</td>
-			<tr>
-			<td>	<button><a href="javascript:cerrar"> Iniciar Sesión </a> </button> </td>
-			</tr>
-			</table>
-		</fieldset>
-	</form>
-	</td>
-	</tr>
-	</table>
-  </body>
+    
+    <head>
+        
+        <meta charset="utf-8">
+        
+        <title> Formulario de Acceso </title>    
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Videojuegos & Desarrollo">
+        <meta name="description" content="Muestra de un formulario de acceso en HTML y CSS">
+        <meta name="keywords" content="Formulario Acceso, Formulario de LogIn">
+        
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
+        
+        <!-- Link hacia el archivo de estilos css -->
+        <link rel="stylesheet" href="css/login.css">
+        
+        <style type="text/css">
+            
+        </style>
+        
+        <script type="text/javascript">
+        
+        </script>
+        
+    </head>
+    
+    <body>
+        
+        <div id="contenedorlog">
+            <div id="centrallog">
+                <div id="login">
+                    <div class="titulo">
+                        Bienvenido
+                    </div>
+                    <form id="loginform">
+                        <input type="text" name="usuario" placeholder="Usuario" required>
+                        
+                        <input type="password" placeholder="Contraseña" name="password" required>
+                        
+                        <button type="submit" title="Ingresar" name="Ingresar">Login</button>
+                    </form>
+                    <div class="pie-form">
+                        <a href="#">¿Perdiste tu contraseña?</a>
+                        <a href="#">¿No tienes Cuenta? Registrate</a>
+                    </div>
+                </div>
+                <div class="inferiorlog">
+                    <a href="#">Volver</a>
+                </div>
+            </div>
+        </div>
+            
+    </body>
 </html>
