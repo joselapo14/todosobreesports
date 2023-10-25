@@ -18,6 +18,7 @@ form label{
 }
 
 form input[type="text"],
+form input[typer="password"],
 form input[type="email"]{
     width:180px;
     padding:3px 10px;
