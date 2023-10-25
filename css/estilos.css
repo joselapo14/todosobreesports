@@ -28,7 +28,7 @@ form input[type="email"]{
     display:inline-block;
 }
 
-#pass{
+form input[type="password"]{
     width:180px;
     padding:3px 10px;
     border:1px solid #f6f6f6;
