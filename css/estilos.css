@@ -171,12 +171,12 @@ textarea{
 .pie-form a {
     display: block;
     text-decoration: none;
-    color: #bbe1fa;
+    color: #fff;
     margin-bottom: 3px;
 }
 
 .pie-form a:hover {
-    color: #0f4c75;
+    color: #fff;
 }
 
 .inferiorlog {
@@ -188,7 +188,7 @@ textarea{
 .inferiorlog a {
     display: block;
     text-decoration: none;
-    color: #bbe1fa;
+    color: #000;
     margin-bottom: 3px;
 }
 
