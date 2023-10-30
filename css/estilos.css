@@ -102,7 +102,7 @@ textarea{
 #login {
     width: 100%;
     padding: 50px 30px;
-    background-color: #3282b8;
+    background-color: #ccc;
     
     -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
     -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
@@ -193,5 +193,5 @@ textarea{
 }
 
 .inferiorlog a:hover {
-    color: #3282b8;
+    color: #ccc;
 }
