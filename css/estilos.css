@@ -158,8 +158,8 @@ textarea{
 }
 
 #login button:hover {
-    background-color: #0f4c75;
-    color:#bbe1fa;
+    background-color: #000;
+    color:#fff;
 }
 
 .pie-form {
@@ -171,7 +171,7 @@ textarea{
 .pie-form a {
     display: block;
     text-decoration: none;
-    color: #fff;
+    color: #000;
     margin-bottom: 3px;
 }
 
