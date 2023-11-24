@@ -5,6 +5,14 @@
 	box-sizing: border-box;
 	font-family: 'Montserrat Alternates', sans-serif;
 }
+.fa-h:before {
+    font-weight: bold;
+    content: 'H';
+}
+.fa-eq:before {
+    font-weight: bold;
+    content: 'EQ';
+}
 /*Pagina principal*/
 #cuerpoprincipal {
 	background: url(https://content.wepik.com/statics/206737646/preview-page0.jpg);
