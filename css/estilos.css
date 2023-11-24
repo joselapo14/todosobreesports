@@ -11,45 +11,6 @@
 	background-repeat: no-repeat;
 	background-size: 4000vw 2000vh;
 }
-.headerprincipal {
-	width: 100%;
-	height: 75px;
-	position: fixed;
-	top: 0; left: 0;
-	background-color: white;
-}
-.containerprincipal {
-	width: 90%;
-	max-width:1200px;
-	margin: auto;
-}
-.containerprincipal .btn-menuprincipal, .logo1{
-	float: left;
-	line-height: 75px;
-}
-.containerprincipal .btn-menuprincipal label{
-	color: #000;
-	font-size: 32px;
-	cursor: pointer;
-}
-.containerprincipal .menuprincipal{
-	float: right;
-	line-height: 75px;
-}
-.containerprincipal .menuprincipal{
-	display: inline-bloc;
-	padding: 15px 10px;
-	line-height: normal;
-	text-decoration: none;
-	color: #000;
-	transition: all 0.3 case;
-	border-bottom: 2px solid transparent;
-	font-size: 17px;
-}
-.containerprincipal .menuprincipal a:hover{
-	border-bottom: 2px solid #c7c7c7;
-	padding: 5px 10px;
-}
 /* Menu lateral */
 .menulat:hover,nav.menulat.expanded {
 width:250px;
