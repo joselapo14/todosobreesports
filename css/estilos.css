@@ -56,24 +56,30 @@
 }
 .container-menuprincipal{
 	position: absolute;
-	backgroud: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.5);
 	width: 100%;
 	height: 100vh;
 	top: 0;left: 0;
 	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+}
+#btn-menuprincipal:checked ~ .container-menuprincipal{
+	opacity: 1;
+	visibility: visible;
 }
 .cont-menuprincipal{
 	width: 100%;
 	max-width: 250px;
 	background: #1c1c1c;
-	heigth: 100vh;
+	height: 100vh;
 	position: relative;
 	transition: all 500ms ease;
 }
 .cont-menuprincipal nav{
 	transfore: translateY(15%);
 }
-.cont-menuprincipal nav a {
+.cont-menuprincipal nav a{
 	display:block;
 	text-decoration: none;
 	padding: 20px;
