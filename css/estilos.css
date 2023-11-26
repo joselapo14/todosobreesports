@@ -13,7 +13,19 @@
     font-weight: bold;
     content: 'EQ';
 }
-.subnav {
+.fa-e:before {
+    font-weight: bold;
+    content: 'E';
+}
+.fa-j:before {
+    font-weight: bold;
+    content: 'J';
+}
+.fa-pt:before {
+    font-weight: bold;
+    content: 'PT';
+}
+.fa-eq; .fa-h; .fa-e; .fa-j; .fa-pt{
 font-size: 2em;
 }
 .fa {
