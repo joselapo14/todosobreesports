@@ -43,6 +43,9 @@ font-size:20px;
 	background-repeat: no-repeat;
 	background-size: 4000vw 2000vh;
 }
+.cuerpotext{
+	background-color:white;
+}
 /* Menu lateral */
 .menulat:hover,nav.menulat.expanded {
 width:250px;
