@@ -17,15 +17,11 @@
     font-weight: bold;
     content: 'E';
 }
-.fa-j:before {
-    font-weight: bold;
-    content: 'J';
-}
 .fa-pt:before {
     font-weight: bold;
     content: 'PT';
 }
-.fa-eq; .fa-h; .fa-e; .fa-j; .fa-pt{
+.fa-eq; .fa-h; .fa-e; .fa-pt{
 font-size: 2em;
 }
 .fa {
