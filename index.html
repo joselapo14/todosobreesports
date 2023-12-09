@@ -19,9 +19,19 @@
 				}
 			</style>
 		<script>
-			document.getElementById('boton-menu').addEventListener('click', function() {
-				document.querySelector('.menu-lateral').style.display = 'block';
-			});
+		function mostrar() {
+		    document.getElementById("menulateralprincipal").style.width = "300px";
+		    document.getElementById("contenidomenul").style.marginLeft = "300px";
+		    document.getElementById("abrir").style.display = "none";
+		    document.getElementById("cerrar").style.display = "inline";
+		}
+		
+		function ocultar() {
+		    document.getElementById("menulateralprincipal").style.width = "0";
+		    document.getElementById("contenidomenul").style.marginLeft = "0";
+		    document.getElementById("abrir").style.display = "inline";
+		    document.getElementById("cerrar").style.display = "none";
+		}
 		</script>
 	</head>
 	<!-- Cuerpo -->
@@ -34,7 +44,12 @@
 								<img src="images/logo.png" width="110px" height="110px" alt="logo">
 							</td>
 							<td>
-								<button id="boton-menu">=</button>
+								<a id="abrir" class="abrir-cerrar" href="javascript:void(0)" onclick="mostrar()">
+								        Abrir menu
+								</a>
+								<a id="cerrar" class="abrir-cerrar" href="javascript:void(0)" onclick="ocultar()">
+								        Cerrar menu
+								</a>
 							</td>
 							<td width="700px">
 								<h1> <style="type css"="">Todo Esports</style="type></h1>
@@ -56,10 +71,12 @@
 				</header>																																																																																																																																																										
 		</div>
 		<div class="menulateralprincipal">
+			<div id="contenidomenul">
    			 <a href="#H">Historia Esports</a>
    			 <a href="#E">Esports actualmente</a>
    			 <a href="#EQ">Equipos más importantes</a>
    			 <a href="#P">Próximos torneos</a>
+			</div>
 		</div>
 	<!-- PARTE INICIAL -->
 	<div class="cuerpotext">
