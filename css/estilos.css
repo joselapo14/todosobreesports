@@ -37,6 +37,9 @@
     background-color: #ddd;
     color: black;
 }
+.menulateralprincipal {
+ display: none;
+}
 /*formulario registro*/
 
 #formularioreg{
