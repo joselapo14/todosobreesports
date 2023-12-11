@@ -16,7 +16,10 @@
 }
 /* Menu lateral */
 .vertical-menu {
-  width: 200px; 
+	width: 200px;
+	top:0
+	left:0
+	height:20%
 }
 
 .vertical-menu a {
