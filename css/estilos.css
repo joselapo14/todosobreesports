@@ -10,95 +10,74 @@
 	background: url(https://content.wepik.com/statics/206737646/preview-page0.jpg);
 	background-repeat: no-repeat;
 	background-size: 4000vw 2000vh;
+	overflow:hidden;
 }
 .cuerpotext{
 	background-color:#99ffffff;
 }
 /* Menu lateral */
-.menulateralprincipal {
-    width: 200px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background-color: #f8f9fa;
-    overflow-x: hidden;
-    padding-top: 20px;
+:root{
+  --main-color:#fff;
+}
+.main-header{
+  background: #4FB391;
+  width: 100%;
+  height:50px;
 }
 
-.menulateralprincipal a {
-    display: block;
-    color: black;
-    padding: 10px;
-    text-decoration: none;
+nav{
+  position: absolute;
+  left:0;
+  top:0;
+  width: 200px;
+  top:50px;
+  height:calc(100vh - 50px);
+  background:#2D6653;
+  transform:translateX(-100%);
+  transition:.4s ease;
 }
 
-.menulateralprincipal a:hover {
-    background-color: #ddd;
-    color: black;
-}
-.menulateralprincipal {
- display: none;
-}
-/*formulario registro*/
-
-#formularioreg{
-    width:1000px;
-    padding:20px;
-    border-radius: 10px;
-    margin:auto;
-    background-color: #ccc;
+.navigation li{
+  list-style:none;
+  width: 100%;
+  border-bottom: 1px solid rgba(255,255,255,.5);
 }
 
-form label{
-    width:80px;
-    font-weight: bold;
-    display:inline-block;
+.navigation a{
+  color:var(--main-color);
+  display: block;
+  line-height:3.5;
+  padding: 0 10px;
+  text-decoration:none;
+  transition:.4s ease;
 }
 
-form input[type="text"],
-form input[type="email"]{
-    width:180px;
-    padding:3px 10px;
-    border:1px solid #f6f6f6;
-    border-radius:3px;
-    background-color: #f6f6f6;
-    margin:8px 0;
-    display:inline-block;
+.navigation a:hover{
+  transform:translateX(10%);
 }
 
-form input[type="password"]{
-    width:180px;
-    padding:3px 10px;
-    border:1px solid #f6f6f6;
-    border-radius:3px;
-    background-color: #f6f6f6;
-    margin:8px 0;
-    display:inline-block;
+#btn-nav{
+  display: none;
 }
 
-form input[type="submit"]{
-    width:8px;
-    padding: 3px 10px;
-    border:1px solid #000;
-    border-radius:3px;
-    color:#fff;
-    background-color:#000;
+#btn-nav:checked ~ nav{
+  transform:translateX(0);
 }
 
-form input[type="submit"]:hover{
-    cursor: pointer;
+.btn-nav{
+  color:var(--main-color);
+  font-size:30px;
+  position: absolute;
+  left:0;
+  top:0;
+  cursor:pointer;
+  padding:6.5px 15px;
+  transition:.2s ease;
+  background:rgba(0,0,0,.1);
 }
 
-textarea{
-    width:100%;
-    height:100px;
-    border:1px solid #f6f6f6;
-    border-radius: 3px;
-    background-color: #f6f6f6;
-    margin:8px 0;
-    resize:none;
-    display: block;
+.btn-nav:hover{
+  background:rgba(0,0,0,.3);
 }
 
 /*login*/
