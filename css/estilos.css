@@ -55,8 +55,6 @@
   color:var(--main-color);
   font-size:30px;
   position: absolute;
-  left:0;
-  top:0;
   cursor:pointer;
   padding:6.5px 15px;
   transition:.2s ease;
