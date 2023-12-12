@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+*{
+	margin: relative;
+	padding: relative;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+/*Pagina principal*/
+#cuerpoprincipal {
+	background: url(https://content.wepik.com/statics/206737646/preview-page0.jpg);
+	background-repeat: no-repeat;
+	background-size: 4000vw 2000vh;
+}
+.cuerpotext{
+	background-color:#99ffffff;
+}
+/* Menu lateral */
+.menulateral{
+    width:10%;
+    height: 9%;
+    position:fixed;
+    left:0;
+    top:0;
+    transition: .3s all;
+    z-index: 1;
+}
+.menulateral ul{
+    padding:8px;
+    text-align: center;
+}
+.menulateral li{
+    transition: .2s all;
+}
+.menulateral a{
+    text-decoration: none;
+    list-style: none;
+    transition: .2s all;
+    font-size: 0px;
+    padding:0px;
+}
+.menulateral h3{
+    text-align: center;
+    color: white;
+    padding: 7px;
+    padding-bottom: 7px;
+    font-size: 8px;
+}
+.menulateral img{
+    padding-top:30px;
+    padding-left:10px;
+}
+.menulateral:hover{
+    width:20%;
+    height: 100%;
+    background-color: rgba(5,33,51,0.98);
+}
+.menulateral:hover h3{
+    padding:15px;
+    font-size: 35px;
+}
+.menulateral:hover a{
+    font-size: 20px;
+    color:white;
+    display: block;
+    padding: 20px;
+}
+.menulateral:hover img{
+    height: 8px;
+}
+.menulateral:hover li{
+    border-top: 1px solid black;
+    width:100%;
+}
+.menulateral:hover ul:last-of-type{
+    border-bottom: 1px solid black;
+}
+.menulateral:hover a:hover{
+    font-size: 25px;
+    padding:30px 0px;
+    background-color: rgba(22,78,112,0.98);
+}
+/*login*/
+
+#formulariolog{
+    font-family: 'Overpass', sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    color: #1b262c;
+    
+    margin: 0;
+    background-color: #0f4c75;
+}
+
+#contenedorlog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+}
+
+#centrallog {
+    max-width: 320px;
+    width: 100%;
+}
+
+.titulolog {
+    font-size: 250%;
+    color:#000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#login {
+    width: 100%;
+    padding: 50px 30px;
+    background-color: #ccc;
+    
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    box-sizing: border-box;
+}
+
+#login input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: #1b262c;
+    
+    display: block;
+    width: 100%;
+    height: 40px;
+    
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+#login input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: #E4E4E4;
+}
+
+#login button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color:#fff;
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    background-color: #565656;
+    
+    margin-top: 10px;
+}
+
+#login button:hover {
+    background-color: #000;
+    color:#fff;
+}
+
+.pie-form {
+    font-size: 90%;
+    text-align: center;    
+    margin-top: 15px;
+}
+
+.pie-form a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 3px;
+}
+
+.pie-form a:hover {
+    color: #fff;
+}
+
+.inferiorlog {
+    margin-top: 10px;
+    font-size: 90%;
+    text-align: center;
+}
+
+.inferiorlog a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 3px;
+}
+
+.inferiorlog a:hover {
+    color: #ccc;
+}
