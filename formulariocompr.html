@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Compra</title>
+        <link rel="shortcut icon" type="image/x-icon" href="https://joselapo14.github.io/todosobreesports/images/favicon1.icon" />
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <meta name="author" content="Josito" /> 
+        <meta charset="UTF-8">
+      </head>
+      <body id="registrocompra">
+        <div>
+                  <header style="background-color: #FBDA96; border: 2px solid;">
+                      <table>
+                          <tbody><tr>
+                              <td width="800px">
+                                  <img src="images/logo.png" width="110px" height="110px" alt="logo">
+                              </td>
+                              <td width="700px">
+                                  <h1> <style="type css"="">Todo Esports</style="type></h1>
+                              </td>
+                              <td width="120px">
+                                  <button><a href="login.html"> Iniciar sesión </a></button>
+                              </td>
+                              <td width="90px">
+                                  <a href="https://www.redbubble.com/es/shop/league+of+legends+worlds+t-shirts" target="_blank"><img src="images/carrito.png" width="80px" height="80px" alt="Carrito"></a>	
+                              </td>
+                              <td width="250px">
+                                  <iframe width='159' height='122' style='padding:0!important;margin:0!important;border:none!important;background:none!important;background:transparent!important' marginheight='0' marginwidth='0' frameborder='0' scrolling='no' comment='/*defined*/' src='https://dayspedia.com/if/digit/?v=1&iframe=eyJ3LTEyIjpmYWxzZSwidy0xMSI6dHJ1ZSwidy0xMyI6ZmFsc2UsInctMTQiOmZhbHNlLCJ3LTE1IjpmYWxzZSwidy0xMTAiOmZhbHNlLCJ3LXdpZHRoLTAiOnRydWUsInctd2lkdGgtMSI6ZmFsc2UsInctd2lkdGgtMiI6ZmFsc2UsInctMTYiOiIxNnB4IDE2cHggMjRweCIsInctMTkiOiIzMiIsInctMTciOiIxMiIsInctMjEiOmZhbHNlLCJiZ2ltYWdlIjotMSwiYmdpbWFnZVNldCI6ZmFsc2UsInctMjFjMCI6IiMwMDc2YTgiLCJ3LTAiOmZhbHNlLCJ3LTMiOmZhbHNlLCJ3LTNjMCI6IiMzNDM0MzQiLCJ3LTNiMCI6IjEiLCJ3LTYiOiIjMzQzNDM0Iiwidy0yMCI6dHJ1ZSwidy00IjoiIzAwMDAwMCIsInctMTgiOnRydWUsInctd2lkdGgtMmMtMCI6IjMwMCIsInctMTE1IjpmYWxzZX0=&lang=es&cityid=674'></iframe>
+                              </td>
+                          </tr>
+                      </tbody></table>
+                  </header>																																																																																																																																																										
+          </div>
+      <table id="tablaregistro" width="40%"><tr><td>
+      <p>
+          <form action="" method="get" enctype="multipart/form-data" id="formularioreg">
+              <fieldset>
+                  <legend><h1>COMPRA</h1></legend>
+                  <table width="700" cellpadding="5"><tr>
+                      <tr><td><strong> Primera Parte. Identificación </strong></td></tr>
+                      <td>
+                          <fieldset>
+                              <legend>Datos del Cliente</legend><br />
+                              <label for="email"> Correo Electrónico </label>
+                              <input type="text" id="email" size="20" maxlength="40" />
+                              <br /> <label for="pass">Contraseña</label>
+                              <input type="password" id="pass" size="10"  maxlength="30">
+                              <br /> (Longitud mínima de la contraseña 6 carácteres) <br />
+                          </fieldset>
+                      </td>
+                  </table>
+                  <table width="90%" cellpadding="5">
+                      <tr><td><strong> Segunda Parte. Pedido </strong></td></tr>
+                      <fieldset>
+                        <tr>
+                          <td>
+                            <fieldset>
+                                <legend>Datos del Producto: </legend>
+                                <select id="producto" size="1">
+                                    <option value="bufandas" selected="selected">Bufandas</option>
+                                    <option value="camisetas" selected="selected">Camisetas</option>
+                                    <option value="sudaderas" selected="selected">Sudaderas</option>
+                                </select>
+                            </fieldset>
+                          </td>
+                          <td>
+                            <fieldset>
+                            <legend>Información Adicional: </legend>
+                              Comentarios <br />
+                              <textarea rows="6" cols="60"> Escriba Aquí sus dudas </textarea>
+                              <br />
+                              <input type="checkbox" id="publicidad" value="si" checked="checked">
+                              <label for="publicidad"> Acepto recibir información publicitaria acerca de los Esports </label>
+                            </fieldset>
+                            </td>
+                        </tr>
+                       </fieldset>
+                  </table>
+                  <table width="800" cellpadding="5">
+                      <tr><td><strong> Tercera Parte. Interés </strong></td></tr>
+                      <tr>
+                          <td>
+                              <fieldset><legend>Juego Favorito: </legend><br>
+                                  <select id="juegos" name="juegos" multiple="si" size="5" >
+                                  <optgroup label="Disparos">
+                                  <option value="csgo" selected="selected">CS:GO</option>
+                                  <option value="valo" selected="selected">Valorant</option>
+                                  </optgroup>
+                                  <optgroup label="Estrategia">
+                                  <option value="rocket" selected="selected">Rocket League</option>
+                                  <option value="lol" selected="selected">League of Legends</option>
+                                  <option value="heart" selected="selected">Hearthstone</option>
+                                  </optgroup>
+                                  </select>
+                              </fieldset>
+                          </td>
+                      </tr>
+                  </table>
+                  <table width="600" cellpadding="5">
+                      <tr>
+                          <td>
+                              <fieldset>
+                                  <legend>Datos Bancarios: </legend><br />
+                                  <label for="entidad"> Nombre Entidad: </label>
+                                  <input type="text" id="entidad" size="20"> <br />
+                                  <label for="titular"> Nombre Titular: </label>
+                                  <input type="text" id="titular" size="20"> <br />
+                                  <label for="cuenta"> Nº de cuenta: </label>
+                                  <input type="text" id="cuenta" size="20">
+                              </fieldset>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td> <button type="submit"> <a href="registrohecho.html">REGISTRARSE </a></button></td>
+                          <td>	<button type="reset">	BORRAR	</button></td>
+                      </tr>
+                  </table>
+              </fieldset>
+          </form>
+      </p>
+      <footer style="background-color:white" width="100%">
+          <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a href="https://twitter.com/jositoo45?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @jositoo45</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <br>
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>.
+      </footer>
+      </body>
+</html>
