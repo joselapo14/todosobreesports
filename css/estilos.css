@@ -138,7 +138,7 @@ footer{
 #login {
     width: 100%;
     padding: 50px 30px;
-    background-color: #ccc;
+    rgba(153, 255, 255, 0.685);
     
     -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
     -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
