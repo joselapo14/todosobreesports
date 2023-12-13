@@ -173,7 +173,7 @@ footer{
 
 #login input::placeholder {
     font-family: 'Overpass', sans-serif;
-    color: #E4E4E4;
+    color: rgba(153, 255, 255, 0.685);
 }
 
 #login button {
