@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estiloxml.css" type="text/css"?>
+<esports>
+    <juegos>
+        <lol>
+            <equipos>
+                <equipo id="1">
+                <nombreequipo>SKT T1</nombreequipo>
+                  <jugadores>
+                    <nombres>Faker,Keria,Gumayusi,Oner,Zeus</nombres>
+                  </jugadores>
+                </equipo>
+                <equipo id="1">
+                    <continente>Norteamerica</continente>
+                    <nombreequipo>Cloud9</nombreequipo>
+                      <jugadores>
+                        <nombres>Fudge,Blaber,jojopyun,Berserker,Vulcan</nombres>
+                      </jugadores>
+                </equipo>
+                <equipo id="1">
+                    <continente>Europa</continente>
+                    <nombreequipo>G2 Esports</nombreequipo>
+                    <jugadores>
+                        <nombres>Mikyx,HansSama,Caps,Yike,BrokenBlade</nombres>
+                    </jugadores>
+                </equipo>
+                <equipo>
+                    <continente>Europa</continente>
+                    <nombreequipo>FNATIC</nombreequipo>
+                    <jugadores>
+                        <nombres>Oscarinin,Razork,Humanoid,Noah,Jun</nombres>
+                    </jugadores>
+                </equipo>
+                <equipo>
+                    <continente>Europa</continente>
+                    <nombreequipo>MadLions</nombreequipo>
+                    <jugadores>
+                        <nombres>Armut,Kaiser,Elyoya,Unforgiven,Reeker</nombres>
+                    </jugadores>
+                </equipo>
+            </equipos>
+        </lol>
+        <valorant>
+            <equipos>
+                <equipo id="1">
+                    <continente>Europa</continente>
+                    <nombreequipo>G2 Esports</nombreequipo>
+                    <jugadores num="5">
+                        <nombre></nombre>
+                    </jugadores>
+                </equipo>
+                <equipo id="1">
+                    <continente>Europa</continente>
+                    <nombreequipo>G2 Esports</nombreequipo>
+                    <jugadores>
+                        <nombre></nombre>
+                    </jugadores>
+                </equipo>
+                <equipo id="1">
+                    <continente>Europa</continente>
+                    <nombreequipo>G2 Esports</nombreequipo>
+                    <jugadores>
+                        <nombre></nombre>
+                    </jugadores>
+                </equipo>
+              </equipos>
+        </valorant>
+        <counter>
+            <equipos>
+                <equipo id="1">
+                    <continente>Europa</continente>
+                    <nombreequipo>G2 Esports</nombreequipo>
+                    <jugadores num="5">
+                        <nombre></nombre>
+                    </jugadores>
+                </equipo>
+                <equipo id="1">
+                    <continente>Europa</continente>
+                    <nombreequipo>G2 Esports</nombreequipo>
+                    <jugadores>
+                        <nombre></nombre>
+                    </jugadores>
+                </equipo>
+                <equipo id="1">
+                    <continente>Europa</continente>
+                    <nombreequipo>G2 Esports</nombreequipo>
+                    <jugadores>
+                        <nombre></nombre>
+                    </jugadores>
+                </equipo>
+              </equipos>
+        </counter>
+    </juegos>
+</esports>

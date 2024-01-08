@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estiloxml.css" type="text/css"?>
+<equipos>
+    <equipo id="1">
+      <continente>Europa</continente>
+      <nombreequipo>G2 Esports</nombreequipo>
+        <jugadores>
+          <jugador>
+            <nombre></nombre>
+            <edad></edad>
+            <nacionalidad></nacionalidad>
+          </jugador>
+        </jugadores>
+      </equipo>
+      <equipo id="2">
+      <continente>Corea</continente>
+      <nombreequipo>SKT T1</nombreequipo>
+        <jugadores>
+          <jugador rol="mid">
+            <nombre>Faker</nombre>
+            <edad></edad>
+            <nacionalidad>Coreana</nacionalidad>
+          </jugador>
+          <jugador rol="top">
+            <nombre>Zeus</nombre>
+            <edad></edad>
+            <nacionalidad>Coreana</nacionalidad>
+          </jugador>
+          <jugador rol="jungle">
+            <nombre>Oner</nombre>
+            <edad></edad>
+            <nacionalidad>Coreana</nacionalidad>
+          </jugador>
+          <jugador rol="support">
+            <nombre>Keria</nombre>
+            <edad></edad>
+            <nacionalidad>Coreana</nacionalidad>
+          </jugador>
+          <jugador rol="adc">
+            <nombre>Gumayusi</nombre>
+            <edad></edad>
+            <nacionalidad>Coreana</nacionalidad>
+          </jugador>
+        </jugadores>
+      </equipo>
+      <equipo id="3">
+      <continente></continente>
+      <nombreequipo></nombreequipo>
+        <jugadores>
+          <jugador>
+            <nombre></nombre>
+            <edad></edad>
+            <nacionalidad></nacionalidad>
+          </jugador>
+        </jugadores>
+      </equipo>
+    </equipos>
