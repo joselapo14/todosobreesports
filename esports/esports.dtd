@@ -1,0 +1,6 @@
+<!ELEMENT esports (lol,valorant,counter+)>
+<!ELEMENT lol,valorant,counter (equipos)>
+<!ELEMENT equipos(equipo)>
+<!ELEMENT equipo(continente,nombreequipo,jugadores)>
+<!ELEMENT jugadores(nombres)>
+<!ELEMENT nombres(#PCDATA)>

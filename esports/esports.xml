@@ -1,37 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="estiloxml.css" type="text/css"?>
+<!DOCTYPE esports SYSTEM "esports.dtd">
 <esports>
-    <juegos>
-        <lol>
-            <equipos>
-                <equipo id="1">
+    <lol>
+        <equipos>
+            <equipo id="1">
+                <continente>Corea Del Sur</continente>
                 <nombreequipo>SKT T1</nombreequipo>
-                  <jugadores>
-                    <nombres>Faker,Keria,Gumayusi,Oner,Zeus</nombres>
-                  </jugadores>
-                </equipo>
-                <equipo id="1">
+                <jugadores>
+                <nombres>Faker,Keria,Gumayusi,Oner,Zeus</nombres>
+                </jugadores>
+            </equipo>
+            <equipo id="1">
                     <continente>Norteamerica</continente>
                     <nombreequipo>Cloud9</nombreequipo>
-                      <jugadores>
+                    <jugadores>
                         <nombres>Fudge,Blaber,jojopyun,Berserker,Vulcan</nombres>
-                      </jugadores>
-                </equipo>
-                <equipo id="1">
+                    </jugadores>
+            </equipo>
+            <equipo id="1">
                     <continente>Europa</continente>
                     <nombreequipo>G2 Esports</nombreequipo>
                     <jugadores>
                         <nombres>Mikyx,HansSama,Caps,Yike,BrokenBlade</nombres>
                     </jugadores>
-                </equipo>
-                <equipo>
+            </equipo>
+            <equipo>
                     <continente>Europa</continente>
                     <nombreequipo>FNATIC</nombreequipo>
                     <jugadores>
                         <nombres>Oscarinin,Razork,Humanoid,Noah,Jun</nombres>
                     </jugadores>
-                </equipo>
-                <equipo>
+            </equipo>
+            <equipo>
                     <continente>Europa</continente>
                     <nombreequipo>MadLions</nombreequipo>
                     <jugadores>
@@ -40,7 +41,7 @@
                 </equipo>
             </equipos>
         </lol>
-        <valorant>
+    <valorant>
             <equipos>
                 <equipo id="1">
                     <continente>Europa</continente>
@@ -64,31 +65,30 @@
                     </jugadores>
                 </equipo>
               </equipos>
-        </valorant>
-        <counter>
-            <equipos>
-                <equipo id="1">
-                    <continente>Europa</continente>
-                    <nombreequipo>G2 Esports</nombreequipo>
-                    <jugadores num="5">
-                        <nombre></nombre>
-                    </jugadores>
+    </valorant>
+    <counter>
+        <equipos>
+            <equipo id="1">
+                <continente>Europa</continente>
+                <nombreequipo>G2 Esports</nombreequipo>
+                <jugadores num="5">
+                    <nombre></nombre>
+                </jugadores>
                 </equipo>
-                <equipo id="1">
-                    <continente>Europa</continente>
-                    <nombreequipo>G2 Esports</nombreequipo>
-                    <jugadores>
-                        <nombre></nombre>
-                    </jugadores>
-                </equipo>
-                <equipo id="1">
-                    <continente>Europa</continente>
-                    <nombreequipo>G2 Esports</nombreequipo>
-                    <jugadores>
-                        <nombre></nombre>
-                    </jugadores>
-                </equipo>
-              </equipos>
-        </counter>
-    </juegos>
+            <equipo id="1">
+                <continente>Europa</continente>
+                <nombreequipo>G2 Esports</nombreequipo>
+                <jugadores>
+                    <nombre></nombre>
+                </jugadores>
+            </equipo>
+            <equipo id="1">
+                <continente>Europa</continente>
+                <nombreequipo>G2 Esports</nombreequipo>
+                <jugadores>
+                    <nombre></nombre>
+                </jugadores>
+            </equipo>
+        </equipos>
+    </counter>
 </esports>
