@@ -55,6 +55,11 @@ footer{
     margin-left: 2px;
     margin-right:2px;
 }
+.div:hover{
+	color: purple;
+	background-color: #0082e8;
+}
+	
 .menu div a{
     text-decoration: none;
 }
